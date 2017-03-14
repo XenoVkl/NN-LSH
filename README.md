@@ -9,10 +9,10 @@ Implementation of Locality-Sensitive Hashing in order to find in a dataset P tha
 
 Consider those objects as points. The program supports objects of real coordinate space of d dimensions(using euclidean and cosine metric), objecs of Hamming space and objects where the distance is calculated based on a distance-matrix.
 
-THE FORMAT OF THE DATASETS IS THE FOLLOWING
---------
-DATASETS
---------
+
+---------------------
+DATASETS(File format)
+---------------------
 - Metric_space vector
 
 The format of this dataset is :
@@ -51,6 +51,6 @@ where Bi the binary string of length <= 64 bits that represents object i of Hamm
 where dij the distance of object i from object j(dij=dji && dii=0)
 
 
------------
-QUERY FILES
------------
+----------------------
+QUERYSETS(File format)
+----------------------
