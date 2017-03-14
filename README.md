@@ -111,4 +111,4 @@ QUERYSETS(File format)
   
 - ./lsh -d (input file) -q (quuery file) -k (int) -L (int) -o (outputfile)
 
-*Flags -k and -L are optional(default values L=5 , k=4)
+  *Flags -k and -L are optional(default values L=5 , k=4)
