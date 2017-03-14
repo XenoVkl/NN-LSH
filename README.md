@@ -23,9 +23,9 @@ DATASETS(File format)
 
   item_id1  X11 X12 ... X1d
 
-  .         .       .   
+  .
 
-  .         .       .   
+  .
 
   item_idN XN1  XN2 ... XNd
 
@@ -37,16 +37,16 @@ DATASETS(File format)
   @metric_space hamming
 
   item_id1    B1
-
-  .     .     .
-
-  .     .     .
+  
+  .
+  
+  .
 
   item_idN    BN
 
   where Bi the binary string of length <= 64 bits that represents object i of Hamming space
 
-  - Metric_space matrix
+- Metric_space matrix
 
   @metric_space matrix
 
@@ -56,7 +56,9 @@ DATASETS(File format)
 
   0  0  d23 . . . d2N
 
-  .       .       .
+  .
+  
+  .
 
   0 0 0 0 0 0 0 0 0 0
 
@@ -73,8 +75,10 @@ QUERYSETS(File format)
 
   item_idS1 X11 X12 . . . X1d
 
-  .       .       .       .
-
+  .
+  
+  .
+  
   item_idSQ XQ1 XQ2 . . . XQd
 
 - Hamming Space
@@ -86,3 +90,15 @@ QUERYSETS(File format)
   .       .       
 
   item_idSQ BQ
+  
+- Metric_Space Matrix
+
+  Radius: (int/double)
+  item_idS1 d(S1)1  d(S1)2  . . . d(S1)N
+  
+  .
+  
+  .
+  
+  .
+  item_idSQ d(SQ)1  d(SQ)2  . . . d(SQ)N
