@@ -18,10 +18,15 @@ DATASETS(File format)
 The format of this dataset is :
 
 @metric_space vector
+
 @metric {euclidean, manhattan, cosine}
+
 item_id1  X11 X12 ... X1d
-.         .       .       
-.         .       .       
+
+.         .       .   
+
+.         .       .   
+
 item_idN XN1  XN2 ... XNd
 
 where Xij the coordinates(double) of a vector that represents object i of Euclidean space of d dimensions
@@ -30,9 +35,13 @@ where Xij the coordinates(double) of a vector that represents object i of Euclid
 - Metric_space hamming
 
 @metric_space hamming
+
 item_id1    B1
+
 .     .     .
+
 .     .     .
+
 item_idN    BN
 
 where Bi the binary string of length <= 64 bits that represents object i of Hamming space
@@ -40,12 +49,19 @@ where Bi the binary string of length <= 64 bits that represents object i of Hamm
 - Metric_space matrix
 
 @metric_space matrix
+
 @items [item_id1, item_id2, ..., item_idN]
+
 0 d12 d13 . . . d1N
+
 0  0  d23 . . . d2N
+
 0  0   0  . . . d3N
+
 . . . . . . . . . .
+
 . . . . . . . . . .
+
 0 0 0 0 0 0 0 0 0 0
 
 where dij the distance of object i from object j(dij=dji && dii=0)
