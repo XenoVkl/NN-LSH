@@ -67,9 +67,9 @@ where dij the distance of object i from object j(dij=dji && dii=0)
 QUERYSETS(File format)
 ----------------------
 
-- Euclidean Space
+-Euclidean Space
 
-Radius: <double>
+Radius: (double)
 
 item_idS1 X11 X12 . . . X1d
 
@@ -77,9 +77,9 @@ item_idS1 X11 X12 . . . X1d
 
 item_idSQ XQ1 XQ2 . . . XQd
 
-- Hamming Space
+-Hamming Space
 
-Radius: <double>
+Radius: (int)
 
 item_idS1 B1
 
