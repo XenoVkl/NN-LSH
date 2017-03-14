@@ -4,7 +4,7 @@ Find Nearest Neighbors using Locality-Sensitive Hashing technique
 -----------------------------------------------------------------
 
 Implementation of Locality-Sensitive Hashing in order to find in a dataset P that belongs to a metric space :
-- neighbors in range R of objecy q
+- neighbors in range R of object q
 - nearest neighbot of object q
 
   Consider those objects as points. The program supports objects of real coordinate space of d dimensions(using euclidean and     cosine metric), objecs of Hamming space and objects where the distance is calculated based on a distance-matrix.
@@ -100,5 +100,15 @@ QUERYSETS(File format)
   
   .
   
-  .
   item_idSQ d(SQ)1  d(SQ)2  . . . d(SQ)N
+  
+  
+  -----------------------------------
+  Compiling and Executing the program
+  -----------------------------------
+  
+  A makefile exists so use "make" in order to compile the program. The name of the dataset/queryfile/outputFile, number of hashtables(L)and  number of hash functions used(k) must be given as command line arguments so the command to execute the program is :
+  
+- ./lsh -d (input file) -q (quuery file) -k (int) -L (int) -o (outputfile)
+
+*Flags -k and -L are optional(default values L=5 , k=4)
