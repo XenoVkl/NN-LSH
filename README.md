@@ -109,6 +109,6 @@ QUERYSETS(File format)
   
   A makefile exists so use "make" in order to compile the program. The name of the dataset/queryfile/outputFile, number of hashtables(L)and  number of hash functions used(k) must be given as command line arguments so the command to execute the program is :
   
-- ./lsh -d (input file) -q (quuery file) -k (int) -L (int) -o (outputfile)
+- ./lsh -d (input file) -q (query file) -k (int) -L (int) -o (outputfile)
 
   *Flags -k and -L are optional(default values L=5 , k=4)
