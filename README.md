@@ -56,11 +56,7 @@ where Bi the binary string of length <= 64 bits that represents object i of Hamm
 
 0  0  d23 . . . d2N
 
-0  0   0  . . . d3N
-
-. . . . . . . . . .
-
-. . . . . . . . . .
+.       .       .
 
 0 0 0 0 0 0 0 0 0 0
 
