@@ -5,9 +5,9 @@ Find Nearest Neighbors using Locality-Sensitive Hashing technique
 
 Implementation of Locality-Sensitive Hashing in order to find in a dataset P that belongs to a metric space :
 - neighbors in range R of object q
-- nearest neighbot of object q
+- nearest neighbor of object q
 
-  Consider those objects as points. The program supports objects of real coordinate space of d dimensions(using euclidean and     cosine metric), objecs of Hamming space and objects where the distance is calculated based on a distance-matrix.
+  Consider those objects as points. The program supports objects of real coordinate space of d dimensions(using euclidean and     cosine metric), objects of Hamming space and objects where the distance is calculated based on a distance-matrix.
 
 
 ---------------------
